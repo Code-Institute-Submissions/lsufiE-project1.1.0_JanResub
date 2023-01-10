@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 1;
+    padding: 1;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+/* headings and logos */
+
+h1,h2 {
+    font-family:oswald, sans-serif;
+    text-transform:capitalize;
+    text-align:center;
+    color:rgb(112, 230, 15);
+}
+
+h3,p{
+    color:rgb(11, 225, 208);
+}
+
+#logo{
+    float:left;
+}
+
+#overbackground,h2 h3{
+    color:rgb(208, 87, 111);
+}
+
+#links{
+    float:right;
+    color:rgb(210, 16, 16);
+    margin-right:10px;
+    letter-spacing:2px;
+}
+
+#logo, #links{
+    line-height: 1px;
+}
+
+#links a{
+    text-decoration: none;
+    color:rgb(167, 27, 27);
+}
+
+#links a:hover{
+    border-bottom: 1px solid;
+}
+
+/*background images etc*/
+
+#main-image{
+    height: 600px;
+    width: 100%;
+    object-fit:cover;
+    background-image:url(../images/aleksandr-popov-2GNBoMgKYEo-unsplash.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+
+#secondimg{
+    height: auto;
+    width: auto;
+    background-image: url(../images/aleksandr-popov-2GNBoMgKYEo-unsplash.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+}
