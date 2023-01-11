@@ -4,6 +4,7 @@
     margin: 1;
     padding: 1;
     border: none;
+    background-color: rgb(214, 241, 249);
 }
 
 body {
@@ -16,27 +17,35 @@ body {
 h1,h2 {
     font-family:oswald, sans-serif;
     text-transform:capitalize;
-    text-align:center;
-    color:rgb(112, 230, 15);
+    text-align:left;
+    color:rgb(214, 125, 23);
 }
 
 h3,p{
-    color:rgb(11, 225, 208);
+    color:rgb(83, 55, 160);
 }
 
+h2{
+    text-align:center;
+}
+
+/*--------------------------------*/
 #logo{
-    float:left;
+    
+    margin-top: 30px;
 }
 
 #overbackground,h2 h3{
     color:rgb(208, 87, 111);
+    background-image: url
 }
 
 #links{
     float:right;
     color:rgb(210, 16, 16);
-    margin-right:10px;
+    margin-right:1px;
     letter-spacing:2px;
+    margin-top: 1px;
 }
 
 #logo, #links{
@@ -60,6 +69,7 @@ h3,p{
     object-fit:cover;
     background-image:url(../images/aleksandr-popov-2GNBoMgKYEo-unsplash.jpg);
     background-repeat: no-repeat;
+
     
 
 }
@@ -67,8 +77,32 @@ h3,p{
 #secondimg{
     height: auto;
     width: auto;
-    background-image: url(../images/aleksandr-popov-2GNBoMgKYEo-unsplash.jpg);
+    background-image: url;
     background-repeat: no-repeat;
     object-fit: cover;
     background-attachment: fixed;
+}
+
+/*glassware pic*/
+
+#pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*videos*/
+
+#videos{
+    display:flex;
+    justify-content: space-between;
+    
+}
+    
+
+
+#tools{
+    overflow-y:scroll;
+    max-height: 1000px;
+    scrollbar-color: rgb(30, 190, 18);
 }
