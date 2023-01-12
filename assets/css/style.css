@@ -52,6 +52,10 @@ h2{
     margin-top: 1px;
 }
 
+
+#links1{
+    text-align: right;
+}
 #logo, #links{
     line-height: 1px;
     text-decoration: none;
@@ -183,5 +187,12 @@ footer{
     margin: 1%;
     padding: 5%;
     color: aliceblue;
+}
+
+/* signup form*/
+.signup{
+    text-align: center;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
 }
 
