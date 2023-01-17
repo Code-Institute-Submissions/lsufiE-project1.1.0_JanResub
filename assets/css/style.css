@@ -2,10 +2,10 @@
 
 * {
     margin: 1;
-    padding: 1;
+    padding: 6;
     border: none;
     background-color:rgb(194, 200, 180);
-    background-attachment: fixed;
+    
     background-size: cover;
     
 }
@@ -22,11 +22,13 @@ h1,h2 {
     text-transform:capitalize;
     text-align:left;
     color:rgb(214, 125, 23);
+    
 }
 
 h3,p{
     color:rgb(181, 66, 66);
     font-weight:300;
+    
 }
 
 h2{
@@ -38,11 +40,12 @@ h2{
     
     margin-top: 30px;
     text-decoration:none;
+    background-image: url(../images/background.jpg);
 }
 
-#overbackground,h2 h3{
+#overbackground{
     color:rgb(208, 87, 111);
-    background-image: url
+    background-image: url(../images/background.jpg);
 }
 
 #links{
@@ -85,14 +88,6 @@ h2{
 
 }
 
-#secondimg{
-    height: auto;
-    width: auto;
-    background-image: url;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-attachment: fixed;
-}
 
 /*glassware pic*/
 
@@ -191,29 +186,4 @@ footer{
 }
 
 /* signup form*/
-#sign-up-form{
-    width: 300px;
-    box-shadow: rgba(0,0 green,0 blue, 0.3alpha);
-    padding: 20px;
-    background: #fff;
-    margin: 8% auto;
-    text-align: center;
-}
 
-html{
-    background-color: whitesmoke;
-    background-image: url(../images/background.jpg);
-}
-
-form.html{
-    background-color: whitesmoke;
-    background-image: url(../images/background.jpg);
-}
-
-#links1{
-    background-color: blueviolet;
-}
-
-body{
-
-}

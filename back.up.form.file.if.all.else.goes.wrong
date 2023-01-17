@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>sign up</title>
+</head>
+
+<body id="formhtml">
+    <header>
+         <div class="logo.form">
+        <a href="index.html">
+        <h1 id="logo">How to make Classic Cocktails!</h1>
+        </a>
+         </div>
+    </header>
+
+    <div class="sign-up-form">
+        <h2>sign up now!</h2>
+        <form >
+            <input type="email" class="input-box" placeholder="Your Email">
+            <input type="name" class="input-box" placeholder="your first name">
+            <input type="name" class="input-box" placeholder="your last name">
+            <input type="submit" value="Sign Up Now!">
+        </form>
+    </div>
+    
+    
+
+    
+            
+            
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+#sign-up-form{
+    width: 300px;
+    box-shadow: rgba(0,0 green,0 blue, 0.3alpha);
+    padding: 20px;
+    background-color: bisque;
+    margin: 8% auto;
+    text-align: center;
+    
+}
+
+html{
+    background-image: url(../images/background.jpg);
+}
+
+#formhtml{
+    background-image: url(../images/background.jpg);
+}
