@@ -4,9 +4,10 @@
     margin: 1;
     padding: 1;
     border: none;
-    background-color:rgb(194, 225, 189);
+    background-color:rgb(194, 200, 180);
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 body {
@@ -186,13 +187,33 @@ footer{
     font-size: 220%;
     margin: 1%;
     padding: 5%;
-    color: aliceblue;
+    color: rgb(216, 92, 92);
 }
 
 /* signup form*/
-.signup{
+#sign-up-form{
+    width: 300px;
+    box-shadow: rgba(0,0 green,0 blue, 0.3alpha);
+    padding: 20px;
+    background: #fff;
+    margin: 8% auto;
     text-align: center;
-    background-image: url(../images/background.jpg);
-    background-size: cover;
 }
 
+html{
+    background-color: whitesmoke;
+    background-image: url(../images/background.jpg);
+}
+
+form.html{
+    background-color: whitesmoke;
+    background-image: url(../images/background.jpg);
+}
+
+#links1{
+    background-color: blueviolet;
+}
+
+body{
+
+}
