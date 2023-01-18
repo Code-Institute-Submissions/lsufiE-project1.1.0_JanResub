@@ -5,8 +5,7 @@
     padding: 6;
     border: none;
     background-color:rgb(194, 200, 180);
-    border-radius: 20px;
-    background-size: cover;
+    
     
 }
 
@@ -40,12 +39,12 @@ h2{
     
     margin-top: 30px;
     text-decoration:none;
-    background-image: url(../images/background.jpg);
+    
 }
 
 #overbackground{
     color:rgb(208, 87, 111);
-    background-image: url(../images/background.jpg);
+    
 }
 
 #links{
@@ -80,7 +79,8 @@ h2{
     height: 600px;
     width: 100%;
     object-fit:cover;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background-image-main.webp);
+    border-radius: 20px;
     
     
 
@@ -137,12 +137,12 @@ h2{
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color:rgb(185, 220, 238);
+    background-color:rgb(194, 200, 180);
     overflow:hidden;
     width: 100%;
     height: 0;
     transition: 0.7s ease;
-    opacity: .8;
+    opacity: .9;
     
   }
   
