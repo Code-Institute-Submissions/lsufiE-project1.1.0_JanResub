@@ -41,10 +41,7 @@ h2{
     
 }
 
-#overbackground{
-    color:rgb(208, 87, 111);
-    
-}
+
 
 #links{
     float:left;
@@ -75,23 +72,24 @@ h2{
     color:blanchedalmond;
 }
 
+#logo a:hover{
+    color:blanchedalmond;
+}
 /*background images etc*/
 
-#main-image{
-    height: 600px;
+.main-img{
+    height: auto;
     width: 100%;
-    object-fit:cover;
-    background-image: url(../images/background-image-main.webp);
-    border-radius: 20px;
-    
-    
-
-    
-
+    border-radius: 50px;
+    margin: 0 auto;
+    max-width: 100%;
 }
+/*tools*/
 
-
-/*glassware pic*/
+#tools{
+    margin: 0 auto;
+    text-align: center;
+}
 
 #pic{
     display: block;
@@ -102,20 +100,24 @@ h2{
 /*videos*/
 
 #videos{
-    display:flex;
-    justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px;
+    display:inline-block;
+    
+    
     
 }
 
 .howto{
-    float:inherit;
+    display: inline;
 }
 
 
-
-
+/* Classic drinks*/
+#classic{
+    text-align: center;
+}
+.container{
+    display: inline;
+}
 /*classic drinks overlay*/
 
 .container {
@@ -165,6 +167,7 @@ h2{
 /* FOOTER */
 footer{
     height: 200px;
+    
 }
 
 .social{
@@ -183,7 +186,7 @@ footer{
     color: rgb(216, 92, 92);
 }
 
-/* signup form css is located at the form.html file */
+
 
 /******  media queries *******/ 
 
@@ -196,20 +199,21 @@ footer{
     }
     #tool{
         padding:30px 0;
-        margin: 0;
+        margin: 0 auto; 
     }
     
     
 }
 
 /* for medium screen sizes from 950px wide and down*/
-@media screen and(max-width: 950){
+@media screen and(max-width: 950px){
     #links{
         clear: right;
         float: right;
         margin-left: 30px;
         margin-bottom: 25px;
         line-height: 25px;
+        font-size: 18px;
     }
     #main-image{
         width: 90%;
@@ -224,11 +228,7 @@ footer{
         padding: 30px;
         width: 90%;
     }
-    #videos{
-        width: 100%;
-        padding: 30px;
-        margin: 0 auto;
-    }
+  
     .mixing{
         margin-left: 30px;
     }
@@ -245,3 +245,83 @@ footer{
     }
 }
     
+/* for small screen's sizes from 640px wide and down */
+
+@media screen and (max-width:640px) {
+    #logo{
+        font-size: 20px;
+    }
+    #links{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 30px;
+        padding-bottom: 20px;
+    }
+    #video{
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    margin-top: 10px;
+    margin: 0 auto;
+    
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom:10px;
+    border: none;
+    outline: none;
+    border: 5px solid gray;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-left: 15px;
+    margin-top: 6px;
+    background-color:beige;
+}
+
+.overlay.form{
+    width: 320px;
+    height: 400px;
+    background-color: #9e1010;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 65px;
+    text-align: center;
+    display:inline-block
+}
+
+input[type=submit]{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    background: rgb(128, 65, 65);
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+input[type=submit]:hover{
+    background: rgb(163, 23, 23);
+}
