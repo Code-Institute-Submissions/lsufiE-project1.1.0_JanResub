@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/">
     <title>sign up</title>
     <style>
         
@@ -68,12 +68,29 @@
             background: rgb(163, 23, 23);
         }
 
+        /* FOOTER */
+        footer{
+            height: 200px;
+        }
+
+        .social{
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .social > li{
+            display: inline;
+        }
+
+        .social i{
+            font-size: 220%;
+            margin: 1%;
+            padding: 5%;
+            color: rgb(201, 231, 231);
+        }
+
         
     </style>    
-        
-        
-    
-        
 </head>
 
 <body>
@@ -84,6 +101,13 @@
        </a>
         </div>
    </header>
+
+   <nav id="links">
+    <a href="#tools">Tools</a>
+        <a href="classic.html">Cocktails</a>
+        <a href="form.html" aria-label="Subscribe to see learn more">learn more</a>
+    </nav>
+    
     <form>
         
         <div class="overlay">
@@ -94,5 +118,31 @@
         <input type="submit" value="Sign Up Now!">
         </div>
     </form>
-    
+    <footer>
+        <ul class="social">
+            <li>
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://reddit.com" target="_blank" rel="noopener"
+                        aria-label="Visit our reddit page (opens in a new tab)"><i class="fa-brands fa-square-reddit"></i></a>
+                </li>
+            
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/7459f5d7fb.js" crossorigin="anonymous"></script>
 </body>
