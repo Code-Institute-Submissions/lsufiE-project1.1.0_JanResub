@@ -105,7 +105,7 @@ h2{
     display:flex;
     justify-content: space-around;
     padding-left: 20px;
-    padding-right: 1px;
+    padding-right: 20px;
     
 }
 
@@ -223,6 +223,29 @@ footer{
     #glasses{
         width: 90%;
         margin: 0;
+    }
+    #tools{
+        padding: 30px;
+        width: 90%;
+    }
+    #videos{
+        width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .mixing{
+        margin-left: 30px;
+    }
+    #videos{
+        display:flex;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .howto{
+        padding: 30px 0;
+        margin: 0 auto;
     }
 }
     
