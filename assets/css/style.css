@@ -189,99 +189,7 @@ footer{
     color: rgb(216, 92, 92);
 }
 
-
-
-/******  media queries *******/ 
-
-/*for larger screen sizes from 1200px wide and down*/
-@media screen and (max-width: 1200px){
-    #tools{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #tool{
-        padding:30px 0;
-        margin: 0 auto; 
-    }
-    
-    
-}
-
-/* for medium screen sizes from 950px wide and down*/
-@media screen and(max-width: 950px){
-    #links{
-        clear: right;
-        float: right;
-        margin-left: 30px;
-        margin-bottom: 25px;
-        line-height: 25px;
-        font-size: 18px;
-    }
-    #main-image{
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #glasses{
-        width: 90%;
-        margin: 0;
-    }
-    #tools{
-        padding: 30px;
-        width: 90%;
-    }
-  
-    .mixing{
-        margin-left: 30px;
-    }
-    #videos{
-        display:flex;
-        justify-content: space-around;
-        
-        
-    }
-    .howto{
-        padding: 30px 0;
-        margin: 0 auto;
-    }
-}
-    
-/* for small screen's sizes from 640px wide and down */
-
-@media screen and (max-width:640px) {
-    #logo{
-        font-size: 20px;
-    }
-    #links{
-        font-size: 16px;
-    }
-    h2{
-        font-size: 20px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 40px;
-        padding: 30px;
-        padding-bottom: 20px;
-    }
-    #video{
-        align-items: center;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/****** FORM *******/
 
 form{
     margin-top: 10px;
@@ -326,4 +234,86 @@ input[type=submit]{
 
 input[type=submit]:hover{
     background: rgb(163, 23, 23);
+}
+
+/******  media queries *******/ 
+
+
+
+/*for larger screen sizes from 1200px wide and down*/
+@media screen and (max-width: 1200px){
+    #tools{
+        width: 65%;
+        height: 2700px;
+        margin: 0 auto;
+    }
+    #tool{
+        padding:30px 0;
+        margin: 0 auto; 
+    }
+    
+    
+}
+
+/* for medium screen sizes from 950px wide and down*/
+@media screen and(max-width: 950px){
+    #links{
+        clear: right;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+    #main-image{
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #glasses{
+        width: 90%;
+        margin: 0;
+    }
+    #tools{
+        padding: 30px;
+        width: 90%;
+    }
+  
+    .mixing{
+        margin-left: 30px;
+    }
+    #videos{
+        display:flex;
+        justify-content: space-around;
+        
+        
+    }
+   
+    .howto{
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+}
+    
+/* for small screen's sizes from 640px wide and down */
+
+@media screen and (max-width:640px) {
+    #logo{
+        font-size: 20px;
+    }
+    #links{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 30px;
+        padding-bottom: 20px;
+    }
+    #video{
+        align-items: center;
+    }
+    
 }
