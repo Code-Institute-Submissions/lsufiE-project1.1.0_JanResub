@@ -144,7 +144,7 @@ h2{
     overflow:hidden;
     width: 100%;
     height: 0;
-    transition: 0.7s ease;
+    transition: .7s ease;
     opacity: .9;
     
   }
@@ -314,6 +314,8 @@ input[type=submit]:hover{
     }
     #video{
         align-items: center;
+        margin: 0 auto;
+        padding-right: 20px;
     }
     
 }
