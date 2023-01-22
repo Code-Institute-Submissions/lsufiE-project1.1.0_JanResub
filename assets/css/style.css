@@ -99,16 +99,19 @@ h2{
 
 /*videos*/
 
-#videos{
-    display:inline-block;
-    
-    
-    
+.video{
+    text-align: center;
 }
 
-.howto{
+.video iframe{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 570px;
     display: inline;
+    border-radius: 25px;
 }
+
 
 
 /* Classic drinks*/
@@ -235,8 +238,7 @@ footer{
     #videos{
         display:flex;
         justify-content: space-around;
-        padding-left: 20px;
-        padding-right: 20px;
+        
         
     }
     .howto{
