@@ -53,9 +53,13 @@ cocktails, classic cocktail recipes and also mocktails.
  ## Validator Testing ##
 * ### HTML ### 
    - No errors were returned when passing through the official [W3C validator]
+   - [index.html](../project1.1.0/assets/images/index.html.png)
+   - [form.html](../project1.1.0/assets/images/form.html.png)
+   - [cocktail.html](../project1.1.0/assets/images/cocktail.html.png)
 
 * ### JigSaw ###
   - No errors were found when passing through the official [(Jigsaw) validator]
+  - [style.css](../project1.1.0/assets/images/CSS%20results.png)
 
 * ### Accessibility ###
   * Confirmed with lighthouse.
