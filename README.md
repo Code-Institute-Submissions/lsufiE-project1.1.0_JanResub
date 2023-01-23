@@ -65,6 +65,13 @@ cocktails, classic cocktail recipes and also mocktails.
 * ### Accessibility ###
   * Confirmed with lighthouse.
     - [lighthouse](../project1.1.0/assets/images/lighthouse-performance%20.png)
+
+* ### Bugs / problems faced / warnings
+  * I havent encountered any bugs that i could see,
+  * problems with aliging the videos when previewing into a smaller screen,fixed by changing size of videos. when 
+    viewed on a smaller screen via google developer tools that the drink overlay doesnt show the whole content of the recipe, but i found out that viewing on a smartphone , there is no scrollbar on touchscreens which the issue of not seeing the full content using the developer tools.
+  * warnings i have faced was when i checked my CSS code through the jigsaw validator website . It showed this = 
+    webkit transform is a vendor extension	ms transform is a vendor extension. I wasnt sure how to fix these     warnings.
   
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
