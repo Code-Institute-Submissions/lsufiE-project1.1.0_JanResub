@@ -22,15 +22,16 @@ cocktails, classic cocktail recipes and also mocktails.
 
 * ### The Cocktails Page ###
   * This page shows a drink recipe list,
-  * this page contains 8 classic cocktails recipes and 4 mocktails.
-  * each cocktail has a picture of the drink with the recipe overlaying the image when you hover over the picture.
+  * This page contains 8 classic cocktails recipes and 4 mocktails.
+  * Each cocktail has a picture of the drink with the recipe overlaying the image when you hover over the picture.
+  * To reveal the cocktail recipe you have to hover over the image of the cocktail.
   
   ![drink](/assets/images/drink%20overlay.png)
 
 * ### The Sign Up Page ###
   * This section includes a form where the user sign up to a newsletter to learn more recipes and techniques.
   * The form includes a first name, last name, email adress.
-  * when you click sign up , it has no destination
+  * When you click sign up , it has no destination
   * All rows need to be filled out to be able to sign up.
   
   ![sign-up-form](/assets/images/sign-up-form.png)
@@ -52,23 +53,25 @@ cocktails, classic cocktail recipes and also mocktails.
 
  ## Validator Testing ##
 * ### HTML ### 
-   - No errors were returned when passing through the official [W3C validator]
-   - [index.html](../project1.1.0/assets/images/index.html.png)
-   - [form.html](../project1.1.0/assets/images/form.html.png)
-   - [cocktail.html](../project1.1.0/assets/images/cocktail.html.png)
+  * No errors were returned when passing through the official W3C Validator
+     - [index.html](../project1.1.0/assets/images/index.html.png)
+     - [form.html](../project1.1.0/assets/images/form.html.png)
+     - [cocktail.html](../project1.1.0/assets/images/cocktail.html.png)
 
 * ### JigSaw ###
-  - No errors were found when passing through the official [(Jigsaw) validator]
-  - [style.css](../project1.1.0/assets/images/CSS%20results.png)
+  * No errors were found when passing through the official Jigsaw Validator
+    - [style.css](../project1.1.0/assets/images/CSS%20results.png)
 
 * ### Accessibility ###
   * Confirmed with lighthouse.
+    - [lighthouse](../project1.1.0/assets/images/lighthouse-performance%20.png)
   
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon 
+    display to indicate the 
     successful deployment. 
     
     The live link can be found here - 
@@ -87,7 +90,8 @@ cocktails, classic cocktail recipes and also mocktails.
 
 - The photo used on the home page is from [Shutter Shock](https://www.shutterstock.com/)
 - The images used for the cocktails is from [Shutter Shock](https://www.shutterstock.com/)
-- The images used for the mocktails is from https://www.monin.com/ and also https://www.seedlipdrinks.com/en-us/cocktails/ 
+- The images used for the mocktails is from https://www.monin.com/ and also https://www.seedlipdrinks.com/en-us/ 
+  cocktails/ 
 - The images used on the tools section is from [Shutter Shock](https://www.shutterstock.com/)
 - All the images that have background, i removed it by using this website https://www.remove.bg/
 - The videos on how to shake and mix cocktails are from youtube. 
@@ -103,9 +107,9 @@ cocktails, classic cocktail recipes and also mocktails.
 - Instruction on how to code sign up forms was from self study with the help of  [W3s Schools](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
 
 ### footer
-- instruction on how to code the footer was from self stufy and the course-work from Code Institute.
+- Instruction on how to code the footer was from self stufy and the course-work from Code Institute.
 
 ### media queries /box model
 - Introduction on how to code the responsiveness and understanding box-model was from self study with the help of this website https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
 
----------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
