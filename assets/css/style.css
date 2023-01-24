@@ -21,6 +21,7 @@ h1,h2 {
     text-transform:capitalize;
     text-align:left;
     color:rgb(214, 125, 23);
+    margin-bottom: 20px;
     
 }
 
@@ -80,17 +81,16 @@ h2{
     color:blanchedalmond;
 }
 .active{
-    border-bottom:1px solid blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
 }
 /*background images etc*/
 
 .main-img{
     height: auto;
     width: 100%;
-    border-radius: 50px;
+    border-radius: 40px;
     margin: 0 auto;
     max-width: 100%;
-    
 }
 /*tools*/
 
@@ -115,7 +115,7 @@ h2{
     margin: 0;
     padding: 0;
     height: 300px;
-    width: 350px;
+    width: 700px;
     display: inline;
     border-radius: 25px;
 }
@@ -149,7 +149,7 @@ h2{
     left: 0;
     right: 0;
     background-color:rgb(194, 200, 180);
-    overflow:hidden;
+    overflow:scroll;
     width: 100%;
     height: 0;
     transition: .7s ease;
@@ -267,7 +267,7 @@ input[type=submit]:hover{
 }
 
 /* for medium screen sizes from 950px wide and down*/
-@media screen and(max-width: 950px){
+@media screen and (max-width: 950px){
     #links{
         clear: right;
         float: right;
@@ -304,7 +304,6 @@ input[type=submit]:hover{
         padding: 30px 0;
         margin: 0 auto;
     }
-    
 }
     
 /* for small screen's sizes from 640px wide and down */
@@ -329,5 +328,8 @@ input[type=submit]:hover{
         margin: 0 auto;
         padding-right: 20px;
     }
-    
+    .video iframe{
+        max-width: 300px;
+
+    }
 }
