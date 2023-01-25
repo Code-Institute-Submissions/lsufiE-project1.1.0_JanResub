@@ -93,7 +93,7 @@ cocktails, classic cocktail recipes and also mocktails.
     display to indicate the 
     successful deployment. 
     
-    The live link can be found here - 
+    The live link can be found here - https://isufie.github.io/project1.1.0/ 
 
 ## Credits 
 
