@@ -9,7 +9,7 @@ cocktails, classic cocktail recipes and also mocktails.
   * The navigation bar is located at the top left of the page and shows the name of the site to the left and links below it.
   * The navigation bar bar is responsive  larger and on smaller screens .
   * The font color and background color match up well and the navigation links makes the site easy to explore.
-  * the navigation bar is on every page.
+  * The navigation bar is on every page.
   
   ![nav-bar](assets/images/nav-bar.png)
 
@@ -51,6 +51,10 @@ cocktails, classic cocktail recipes and also mocktails.
     - [Cocktails](../project1.1.0/assets/images/wireframePAGES2.png)
     - [Sign-up](../project1.1.0/assets/images/wireframePAGES3.png)
 
+## Media queries / Box model
+  - Introduction on how to code the responsiveness and understanding box-model was from self study with the help 
+    of this website https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+
 ## **Testing** ## 
  * The page is tested and works on Chrome, firefox, microsoft edge and safari.
  * The page is responsive and tested using the Chrome Developer Toolbar.
@@ -73,8 +77,9 @@ cocktails, classic cocktail recipes and also mocktails.
     - [lighthouse](../project1.1.0/assets/images/lighthouse-performance%20.png)
 
 * ### Bugs / problems faced / warnings
-  * I havent encountered any bugs that i could see,
-  * problems with aligning the videos when previewing into a smaller screen,fixed by changing size of videos. when 
+  * I wanted the recipes to overlay at the far right side of the page but it only worked for the first two drinks,  
+    I wasn't sure what was causing the issue but it was working before perfectly.Maybe when i fixed errors in the code it happened. 
+  * Problems with aligning the videos when previewing into a smaller screen,fixed by changing size of videos. when 
     viewed on a smaller screen via google developer tools that the drink overlay doesnt show the whole content of the recipe, but i found out that viewing on a smartphone , there is no scrollbar on touchscreens which the issue of not seeing the full content using the developer tools.
   * warnings i have faced was when i checked my CSS code through the jigsaw validator website . It showed this = 
     webkit transform is a vendor extension	ms transform is a vendor extension. I wasnt sure how to fix these     warnings.
