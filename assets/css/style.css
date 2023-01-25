@@ -5,8 +5,6 @@
     padding: 0;
     border: none;
     background-color:rgb(194, 200, 180);
-    
-    
 }
 
 body {
@@ -22,7 +20,6 @@ h1,h2 {
     text-align:left;
     color:rgb(214, 125, 23);
     margin-bottom: 20px;
-    
 }
 
 h3,p{
@@ -40,8 +37,8 @@ h2{
     
     margin-top: 30px;
     text-decoration:none;
-    
 }
+
 .bottleopener{
     padding-top: 20px;
 }
@@ -99,16 +96,11 @@ h2{
     text-align: center;
 }
 
-#pic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /*videos*/
 
 .video{
     text-align: center;
+    
 }
 
 .video iframe{
@@ -116,32 +108,33 @@ h2{
     padding: 0;
     height: 300px;
     width: 700px;
-    display: inline;
+    
     border-radius: 25px;
 }
 
 
+/*  drinks*/
 
-/* Classic drinks*/
 #classic{
     text-align: center;
 }
 .container{
     display: inline;
 }
-/*classic drinks overlay*/
+
+/* drinks overlay*/
 
 .container {
     position: relative;
     width: 50%;
     height:auto;
-  }
+}
   
   .image {
     display: block;
     width: auto;
     height: 320px;
-  }
+}
   
   .overlay {
     position: absolute;
@@ -149,18 +142,17 @@ h2{
     left: 0;
     right: 0;
     background-color:rgb(194, 200, 180);
-    overflow:scroll;
+    overflow:hidden;
     width: 100%;
     height: 0;
     transition: .7s ease;
     opacity: .9;
-    
-  }
+}
   
   .container:hover .overlay {
     bottom: 0;
     height: 100%;
-  }
+}
   
   .text {
     color: rgb(122, 4, 4);
@@ -172,8 +164,7 @@ h2{
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    
-  }
+}
 
 /* FOOTER */
 footer{
@@ -246,8 +237,6 @@ input[type=submit]:hover{
 
 /******  media queries *******/ 
 
-
-
 /*for larger screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px){
     #tools{
@@ -270,15 +259,16 @@ input[type=submit]:hover{
 @media screen and (max-width: 950px){
     #links{
         clear: right;
-        float: right;
+        
         margin-left: 30px;
         margin-bottom: 25px;
         line-height: 25px;
         font-size: 18px;
+        margin: 0;
     }
     #main-image{
         width: 90%;
-        height: 1200px;
+        height: 2000px;
         margin: 0 auto;
     }
     #glasses{
@@ -293,13 +283,7 @@ input[type=submit]:hover{
     .mixing{
         margin-left: 30px;
     }
-    #videos{
-        display:flex;
-        justify-content: space-around;
-        
-        
-    }
-   
+    
     .howto{
         padding: 30px 0;
         margin: 0 auto;
@@ -313,23 +297,23 @@ input[type=submit]:hover{
         font-size: 20px;
     }
     #links{
-        font-size: 16px;
+        font-size:15px;
     }
     h2{
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         margin: 0 auto;
         margin-bottom: 40px;
         padding: 50px;
         padding-bottom: 20px;
+        padding-left: 1px;
     }
     #video{
         align-items: center;
         margin: 0 auto;
-        padding-right: 20px;
     }
     .video iframe{
         max-width: 300px;
-
+        max-height: 200px;
     }
 }

@@ -1,4 +1,4 @@
-# **SITE OVERVIEW **
+# SITE OVERVIEW 
 ## **How to make cocktails.** 
 How to make a Cocktail is a website that will teach the basics of a making Classic Cocktails,
 from learning the history of cocktails, familiarising the tools of a bartender, glassware, how to mix or shake 
@@ -45,6 +45,12 @@ cocktails, classic cocktail recipes and also mocktails.
   
   ![footer](assets/images/footer2.png)
 
+## WireFrames
+  * Check my wireframes here
+    - [Home](../project1.1.0/assets/images/WireframePAGES1.png)
+    - [Cocktails](../project1.1.0/assets/images/wireframePAGES2.png)
+    - [Sign-up](../project1.1.0/assets/images/wireframePAGES3.png)
+
 ## **Testing** ## 
  * The page is tested and works on Chrome, firefox, microsoft edge and safari.
  * The page is responsive and tested using the Chrome Developer Toolbar.
@@ -68,7 +74,7 @@ cocktails, classic cocktail recipes and also mocktails.
 
 * ### Bugs / problems faced / warnings
   * I havent encountered any bugs that i could see,
-  * problems with aliging the videos when previewing into a smaller screen,fixed by changing size of videos. when 
+  * problems with aligning the videos when previewing into a smaller screen,fixed by changing size of videos. when 
     viewed on a smaller screen via google developer tools that the drink overlay doesnt show the whole content of the recipe, but i found out that viewing on a smartphone , there is no scrollbar on touchscreens which the issue of not seeing the full content using the developer tools.
   * warnings i have faced was when i checked my CSS code through the jigsaw validator website . It showed this = 
     webkit transform is a vendor extension	ms transform is a vendor extension. I wasnt sure how to fix these     warnings.
